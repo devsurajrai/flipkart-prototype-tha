@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "product": "Color Block male Round Neck White T-Shirt",
+    "image": "https://rukminim1.flixcart.com/image/800/960/kri3xjk0/t-shirt/i/j/i/xl-w-b-thefashionplus-original-imag59vnq6hhymps.jpeg?q=50",
+    "mrp": 1499,
+    "discount": 10,
+    "size": "XL",
+    "brand": "LEVIS",
+    "ideal": "male",
+    "quantity":1
+  },
+  {
+    "id": 2,
+    "product": "Solid male Polo Neck Dark Blue T-Shirt",
+    "image": "https://rukminim1.flixcart.com/image/800/960/kg15ocw0-0/t-shirt/s/f/v/s-ss20-gpawg-bu-awg-original-imafwdftugxehtf7.jpeg?q=50",
+    "mrp": 1499,
+    "discount": 20,
+    "size": "L",
+    "brand": "AWG",
+    "ideal": "male",
+    "quantity":1
+
+  },
+  {
+    "id": 3,
+    "product": "Printed male Round Neck Multicolor T-Shirt  (Pack of 3)",
+    "image": "https://rukminim1.flixcart.com/image/800/960/kavefm80/t-shirt/y/6/h/s-bul-bsp015-013-017-bullmer-original-imafsc47hdfcea5t.jpeg?q=50",
+    "mrp": 1499,
+    "discount": 30,
+    "size": "M",
+    "brand": "Bullmer",
+    "ideal": "male",
+    "quantity":1
+
+  },
+  {
+    "id": 4,
+    "product": "Solid Womale Round Neck Black, Pink T-Shirt  (Pack of 2)",
+    "image": "https://rukminim1.flixcart.com/image/800/960/kcc9q4w0/t-shirt/s/z/q/s-2co-w-regular-must-blk-young-trendz-original-imafthf9brdq8cfj.jpeg?q=50",
+    "mrp": 2069,
+    "discount": 10,
+    "size": "L",
+    "brand": "Young trendz ",
+    "ideal": "female",
+    "quantity":1
+
+  },
+  {
+    "id": 5,
+    "product": "Graphic Print Women Round Neck Light Green T-Shirt",
+    "image": "https://rukminim1.flixcart.com/image/800/960/ktn9pjk0/t-shirt/o/w/n/xl-3520-the-dry-state-original-imag6y43ssx5adkc.jpeg?q=50",
+    "mrp": 1000,
+    "discount": 20,
+    "size": "L",
+    "brand": "THE DRY STATE",
+    "ideal": "female",
+    "quantity":1
+
+  },
+  {
+    "id": 6,
+    "product": "Printed Women Round Neck Grey T-Shirt",
+    "image": "https://rukminim1.flixcart.com/image/800/960/kobspe80/t-shirt/e/z/j/xs-2412645-roadster-original-imag2t6ngzugb2hg.jpeg?q=50",
+    "mrp": 599,
+    "discount": 30,
+    "size": "M",
+    "brand": "Roadster",
+    "ideal": "male",
+    "quantity":1
+
+  }
+]
