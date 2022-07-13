@@ -38,19 +38,19 @@ const ProductCard = ({ product, inCart, inSaveForLater }) => {
         {inCart && (
           <div className="w-full ">
             <button
-              onClick={() => increaseQuantity(setCart, product)}
+              onClick={() => decreaseQuantity(setCart, product)}
               className="p-1 border-2 font-semibold text-xs"
             >
-              +
+              -
             </button>
             <span className="inline-block px-2 font-semibold text-xs">
               {product.quantity}
             </span>
             <button
-              onClick={() => decreaseQuantity(setCart, product)}
+              onClick={() => increaseQuantity(setCart, product)}
               className="p-1 border-2 font-semibold text-xs"
             >
-              -
+              +
             </button>
           </div>
         )}
