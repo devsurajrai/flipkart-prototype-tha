@@ -12,11 +12,12 @@ const Cart = () => {
     let totalDiscount = 0;
     let totalMRP = 0;
     for (let i = 0; i < cart.length; i++) {
-      totalPrice += Math.floor(
-        cart[i].mrp - (cart[i].discount / 100) * cart[i].mrp
-      );
-      totalDiscount += Math.floor((cart[i].discount / 100) * cart[i].mrp);
-      totalMRP += cart[i].mrp;
+      totalPrice +=
+        Math.floor(cart[i].mrp - (cart[i].discount / 100) * cart[i].mrp) *
+        cart[i].quantity;
+      totalDiscount +=
+        Math.floor((cart[i].discount / 100) * cart[i].mrp) * cart[i].quantity;
+      totalMRP += cart[i].mrp * cart[i].quantity;
     }
     return { totalPrice, totalDiscount, totalMRP };
   };

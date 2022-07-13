@@ -7,6 +7,7 @@ import {
   removeFromLater,
   saveForLaterHandler,
 } from "../utils/saveForLater";
+import { decreaseQuantity, increaseQuantity } from "../utils/productQuantity";
 
 const ProductCard = ({ product, inCart, inSaveForLater }) => {
   const { cart, setCart, saveForLater, setSaveForLater } = useCartContext();
@@ -36,11 +37,21 @@ const ProductCard = ({ product, inCart, inSaveForLater }) => {
         </div>
         {inCart && (
           <div className="w-full ">
-            <button className="p-1 border-2 font-semibold text-xs">+</button>
+            <button
+              onClick={() => increaseQuantity(setCart, product)}
+              className="p-1 border-2 font-semibold text-xs"
+            >
+              +
+            </button>
             <span className="inline-block px-2 font-semibold text-xs">
               {product.quantity}
             </span>
-            <button className="p-1 border-2 font-semibold text-xs">-</button>
+            <button
+              onClick={() => decreaseQuantity(setCart, product)}
+              className="p-1 border-2 font-semibold text-xs"
+            >
+              -
+            </button>
           </div>
         )}
       </div>
